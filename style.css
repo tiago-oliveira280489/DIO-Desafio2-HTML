@@ -1,0 +1,152 @@
+html, body {
+    margin: 0;
+}
+body {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #024059;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: #024059;
+    min-height: 150px;
+    height: 200px;
+}
+.content {
+    background-color: #FFFFFF;
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.content-index {
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-contato {
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    min-height: 300px;
+}
+.footer {
+    background-color: #FFFFFF;
+    min-height: 150px;
+}
+#logo-cabecalho {
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+h1, p {
+    color: #024059;
+}
+.wrapper .menu ul {
+    margin-top: 130%;
+}
+.wrapper .menu ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.wrapper .menu ul li a{
+    /*color: #FFFFFF;*/
+    text-decoration: none;
+    font-size: 20px;
+}
+/* link que ainda não foi visitado */
+.wrapper .menu ul li a:link {
+    color: white;
+ }
+ 
+ /* link que foi visitado */
+ .wrapper .menu ul li a:visited {
+     color: white;
+ }
+ 
+ /* mouse over */
+ .wrapper .menu ul li a:hover {
+     color: yellow;
+ }
+ 
+ /* link selecionado */
+ .wrapper .menu ul li a:active {
+     color: white;
+ }
+.midias-sociais {
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 50px;
+}
+.direitos-reservados {
+    text-align: center;
+}
+#img-sobre, #img-horario, #img-contato {
+    width: 22%;
+    margin: auto;
+    display: block;
+}
+.content table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: absolute;
+    top: 50%;
+    left: 44%;
+}
+.content table th {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-right: 1px solid white;
+    border-collapse: collapse;
+}
+.content table td {
+    text-align: left;
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.content-contato .contatos {
+    margin: 0 auto;
+    width: 45%;
+}
+.content-contato .form {
+    margin: 0 auto;
+    width: 45%;
+}
+#nome, #email, #assunto, #mensagem {
+    margin-bottom: 10px;
+    width: 97%;
+}
+#btn-enviar, #btn-limpar {
+    background-color: #024059;
+    color: #FFFFFF;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.content-contato .form .botoes-form {
+    text-align: center;
+}
+
