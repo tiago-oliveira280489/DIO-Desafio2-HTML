@@ -20,6 +20,7 @@ Abaixo como cada página deve ser criada e estruturada.
 ## Estrutura das Páginas
 
 Todas as páginas terão que seguir um padrão pré-definido, conforme representado na imagem abaixo:
+
 ![image](https://user-images.githubusercontent.com/42700810/234937430-1275dd46-18ce-4a17-b26b-5cd23c2a756b.png)
 
 No Menu, ficará localizado o menu de navegação (ah vá!), no Header de cada página ficará uma imagem, no Footer informações de contato, e o Content é o conteúdo de cada página.
